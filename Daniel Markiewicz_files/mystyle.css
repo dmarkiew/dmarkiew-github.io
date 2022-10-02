@@ -1,0 +1,74 @@
+/* @import url(http://fonts.googleapis.com/css?family=PT+Sans&subset=latin); */
+body {
+/*  padding-right: 11em; */
+  margin-left: 7em;
+  margin-right: 7em;
+  font-family: Tahoma, "Times New Roman",
+        Times, sans-serif;
+  color: black;
+  background-color: white; }
+ul.navbar {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  right: 1em;
+  width: 9em }
+h1 {
+  text-align: center;
+  background-color:   white;
+  color: black;
+  border-bottom: 1px solid silver; /*#dadada;*/
+  font-family: Times, Calibri, Arial,
+        SunSans-Regular, sans-serif }
+h2 {text-align: left;}
+ul.navbar li {
+  background: #ffff99;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 0.2em solid black }
+ul.navbar a {
+  text-decoration: none }
+a:link {
+  color: blue; 
+  }
+a:visited {
+  color: purple;
+  }
+a:hover{color: white; background-color: #333399; text-decoration: none}  
+address {
+  margin-top: 1em;
+  padding-top: 1em;
+  border-top: thin dotted }
+p {text-indent: 2em}
+img.me {/* scalable picture of me */
+  width: 12em;
+  height:13.33em;
+  }
+img.email {/* scalable picture of email */
+  width: 13.2em;
+  height:1.2em;
+  }
+div.figure {
+  float: right;
+  width: 30%;
+  /*border: thin silver solid;
+  margin: 1.5em;               */
+  padding: 0.5em;
+}
+table.special{width: 100%;}
+div.figure p {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+}  
+.line-separator{
+
+height:1px;
+
+background:#717171;
+
+border-top:1px solid #313030;
+
+}
