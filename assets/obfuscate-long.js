@@ -1,6 +1,6 @@
 
         function encaps(each){
-        var code=[108,105,46,99,97,46,117,103,98,46,64]
+        var code=[108,105,46,99,97,46,117,103,98,64]
         var common='' //variable to contain e-address
         var out='-'
         if (each!='-')
